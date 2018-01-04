@@ -1,6 +1,5 @@
 /* Round-Robin scheduling algorithm simulation
- * Tsegai Ghebremedhin
- * Jenci Chavez
+ * 
  * _____________________________________________
  *       |         Overhead time in ms         |
  * ______|_____________________________________|
@@ -15,15 +14,7 @@
  * 0.5   |    |       |      |     |     |     |
  * ______|_19_|__20 __|__21__|_22__|__23_|__24_|
  * 
- * Use this table for each run.Start with time_quantum=0.05 and over_head = 0
- * Each run will give you the waiting time of a process
- * Then you find the average waiting time for each process for each of the 24 runs
- * Example: Average waiting time P0 = waiting time in first run + waiting time in second run+....+waiting time in 24th run / 24
- * I think you have the project file so you know how to write the report.
- * Orgulloso de ti Jenci!!!
- * 
- *  
- * */
+ */
 
 #include<iostream>
 #include<fstream>
